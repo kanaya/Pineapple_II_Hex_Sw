@@ -9101,7 +9101,7 @@ CONN_03
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S-COPPER" value="OSHW-LOGOS-COPPER"/>
 <part name="U$1" library="pineapple" deviceset="PINEAPPLE450_SILK" device=""/>
-<part name="JRLY" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AUDIO_JACK_3.5MM" device="_KIT" package3d_urn="urn:adsk.eagle:package:38014/1"/>
+<part name="JJ4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AUDIO_JACK_3.5MM" device="_KIT" package3d_urn="urn:adsk.eagle:package:38014/1"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1" value="RLY"/>
 </parts>
 <sheets>
@@ -9117,7 +9117,7 @@ CONN_03
 </instance>
 <instance part="LOGO1" gate="G$1" x="241.3" y="165.1" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="241.3" y="142.24" smashed="yes"/>
-<instance part="JRLY" gate="G$1" x="30.48" y="124.46" smashed="yes">
+<instance part="JJ4" gate="G$1" x="30.48" y="124.46" smashed="yes">
 <attribute name="NAME" x="25.4" y="130.048" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="25.4" y="116.84" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -9131,7 +9131,7 @@ CONN_03
 <nets>
 <net name="NO" class="0">
 <segment>
-<pinref part="JRLY" gate="G$1" pin="TIP"/>
+<pinref part="JJ4" gate="G$1" pin="TIP"/>
 <pinref part="J4" gate="J$1" pin="1"/>
 <wire x1="35.56" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
 <label x="58.42" y="119.38" size="1.778" layer="95"/>
@@ -9139,7 +9139,7 @@ CONN_03
 </net>
 <net name="COMMON" class="0">
 <segment>
-<pinref part="JRLY" gate="G$1" pin="SLEEVE"/>
+<pinref part="JJ4" gate="G$1" pin="SLEEVE"/>
 <wire x1="35.56" y1="129.54" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="129.54" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="J4" gate="J$1" pin="2"/>
@@ -9149,7 +9149,7 @@ CONN_03
 </net>
 <net name="NC" class="0">
 <segment>
-<pinref part="JRLY" gate="G$1" pin="RING"/>
+<pinref part="JJ4" gate="G$1" pin="RING"/>
 <wire x1="35.56" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="127" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="J4" gate="J$1" pin="3"/>
